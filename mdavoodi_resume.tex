@@ -1,0 +1,157 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Mdavoodi - First draft at LaTeX resume
+%
+% Inspired by:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{mdavoodi-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Mohammed}{Davoodi}{
+ \href{mailto:email@email.com}{email@email.com} | XXX.XXX.XXXX | Github:// \href{https://github.com/mdavoodi}{\custombold{mdavoodi}}  | LinkedIn:// \href{https://linkedin.com/in/mdavoodi}{\custombold{mdavoodi}} | Green Card Holder\\
+
+}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %
+% %     COLUMN ONE
+% %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{minipage}[t]{0.30\textwidth} 
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     EDUCATION
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\begin{minipage}[t]{0.50\textwidth} 
+\subsection{Virginia Tech}
+\descript{BS in Computer Science, May 2014}
+\location{Blacksburg, VA | Magna Cum Laude | GPA: 3.6/4.0}
+\sectionsep
+\end{minipage}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     COURSEWORK
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.49\textwidth} 
+\subsection{Coursework}
+\begin{tabular}{l|l}
+Operating Systems & Theory of Algorithm’s\\
+Introduction to AI & Systems and Networking\\
+\end{tabular}
+\sectionsep
+\end{minipage}
+
+\subsection{Programming}
+\begin{tabular}{l}
+Python, Java, C, C++, Javascript, C\#, Django, Flask, AngularJS, CSS, HTML, Shell scripting, iOS, Android, Access SQL, Postgresql, \\
+MYSQL, Visual Basic, MATLAB, \LaTeX\ , Assembly
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{SpaceX}
+\descript{| Software Engineer }
+\location{June 2014 – Present (1 year, 8 months) | Hawthorne, CA}
+\begin{tightemize}
+\item Work as a Software Engineer in Flight Software on internal tools for build and release of vehicle software and configuration, automated data analysis (Python, Java, Javascript, AngularJS, Celery, Flask, Bamboo, JIRA, MATLAB) \item Work on embedded software and manage software release (C++, Linux) for Falcon 9 rockets.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Konkourse}
+\descript{| Lead Developer}
+\location{June 2012 – December 2013 (1 year, 7 months) | Blacksburg, VA}
+\begin{tightemize}
+\item Cofounded a startup called Konkourse, a Learning Management System with the goal of providing a better educational platform then current LMS tools like Blackboard, Scholar and Piazza. 
+\item Built and led a team of three engineers through design, coding, deployment, and operations.
+\item Developed complete system architecture, task breakdown, and project schedule  (Python, Django, Javascript, HTML).\end{tightemize}
+\sectionsep
+
+\runsubsection{Amazon}
+\descript{| Software Engineering Intern}
+\location{May 2013 – August 2013 (4 months) | Seattle, WA}
+\begin{tightemize}
+\item Designed and implemented graph projection and dashboard summary for Amazon's Operational Excellence Dashboard (Javascript, Backbone.js, flot.js). 
+\item Modified service calls in Amazon core services to create new data endpoints (Java).
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Freddie Mac}
+\descript{| Software Engineering Intern}
+\location{May 2012 – August 2012 (4 months) | Mclean, VA}
+\begin{tightemize}
+\item Designed and implemented a Disaster Recovery Readiness Dashboard to provide executive management at Freddie Mac a snapshot of Freddie Mac’s ability to recover in the event of a disaster or disruption (C\#, AcessSQL).\end{tightemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Virginia Tech}
+\descript{| Undergraduate Research (Automation)}
+\location{February 2013 – May 2014 (1 year, 4 months) | Blacksburg, VA}
+\begin{tightemize}
+\item Researched, designed and implemented native execution of Android applications on the Windows Phone.
+\item Implemented using dynamic cross-platform replay, in which the source application’s execution in the cloud is mimicked natively on the target platform (Aspect Oriented Programming, Java, Web Sockets, C\#).
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Virginia Tech}
+\descript{| Undergraduate Research (EMBERS Group)}
+\location{October 2011 – November 2012 (1 year, 2 months) | Blacksburg, VA}
+\begin{tightemize}
+\item Worked with team of graduate students and faculty on the initial prototype and proposal of the EMBERS project, a project focused on forecasting significant societal events.
+\item Aggregated data from twitter and online news sources involving Latin America, for use in analysis and prediction. 
+\item Tested and experimented with a variety of NLP libraries  (Python, Data Mining, Natural language processing).
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PAPERS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Papers} 
+Holder E., Shah E., \custombold{Davoodi M.}, Tilevich E. Cloud Twin: Native Execution of Android Applications
+on the Windows Phone. Automated Software Engineering, New Ideas, November 11-15, 2013.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{l|l|l}
+2014	     & 1st Peoples Choice at CSRC Research Symposium & 3rd Faculty Choice at CSRC Research Symposium \\
+2013	     & 2nd Peoples Choice at CSRC Research Symposium & 2nd Faculty Choice at CSRC Research Symposium \\
+2013	     & 3rd Faculty Choice at CSRC Capstone Symposium \\
+\end{tabular}
+
+\end{document}  \documentclass[]{article}
