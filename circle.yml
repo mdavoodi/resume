@@ -1,9 +1,9 @@
 dependencies:
  pre:
   - sudo apt-get update; sudo apt-get install texlive-xetex
+test:
  override:
   - make all
-test:
  post:
   - mkdir -p $CIRCLE_ARTIFACTS/dist/
   - find . -type f -regex "*.pdf" -exec cp {} $CIRCLE_ARTIFACTS/dist/ \;
