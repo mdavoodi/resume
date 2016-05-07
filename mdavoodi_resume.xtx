@@ -10,10 +10,10 @@
 % default. If you get compilation errors saying a font is missing, find the line
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[]{mdavoodi-resume-openfont}
+\documentclass[]{mdavoodi_resume}
 
 
 \begin{document}
@@ -43,15 +43,15 @@
 % %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \begin{minipage}[t]{0.30\textwidth} 
+% \begin{minipage}[t]{0.30\textwidth}
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %     EDUCATION
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education} 
+\section{Education}
 
-\begin{minipage}[t]{0.50\textwidth} 
+\begin{minipage}[t]{0.50\textwidth}
 \subsection{Virginia Tech}
 \descript{BS in Computer Science, May 2014}
 \location{Blacksburg, VA | Magna Cum Laude | GPA: 3.6/4.0}
@@ -60,7 +60,7 @@
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %     COURSEWORK
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{minipage}[t]{0.49\textwidth} 
+\begin{minipage}[t]{0.49\textwidth}
 \subsection{Coursework}
 \begin{tabular}{l|l}
 Operating Systems & Theory of Algorithm’s\\
@@ -93,7 +93,7 @@ MYSQL, Visual Basic, MATLAB, \LaTeX\ , Assembly
 \descript{| Lead Developer}
 \location{June 2012 – December 2013 (1 year, 7 months) | Blacksburg, VA}
 \begin{tightemize}
-\item Cofounded a startup called Konkourse, a Learning Management System with the goal of providing a better educational platform then current LMS tools like Blackboard, Scholar and Piazza. 
+\item Cofounded a startup called Konkourse, a Learning Management System with the goal of providing a better educational platform then current LMS tools like Blackboard, Scholar and Piazza.
 \item Built and led a team of three engineers through design, coding, deployment, and operations.
 \item Developed complete system architecture, task breakdown, and project schedule  (Python, Django, Javascript, HTML).\end{tightemize}
 \sectionsep
@@ -102,7 +102,7 @@ MYSQL, Visual Basic, MATLAB, \LaTeX\ , Assembly
 \descript{| Software Engineering Intern}
 \location{May 2013 – August 2013 (4 months) | Seattle, WA}
 \begin{tightemize}
-\item Designed and implemented graph projection and dashboard summary for Amazon's Operational Excellence Dashboard (Javascript, Backbone.js, flot.js). 
+\item Designed and implemented graph projection and dashboard summary for Amazon's Operational Excellence Dashboard (Javascript, Backbone.js, flot.js).
 \item Modified service calls in Amazon core services to create new data endpoints (Java).
 \end{tightemize}
 \sectionsep
@@ -131,7 +131,7 @@ MYSQL, Visual Basic, MATLAB, \LaTeX\ , Assembly
 \location{October 2011 – November 2012 (1 year, 2 months) | Blacksburg, VA}
 \begin{tightemize}
 \item Worked with team of graduate students and faculty on the initial prototype and proposal of the EMBERS project, a project focused on forecasting significant societal events.
-\item Aggregated data from twitter and online news sources involving Latin America, for use in analysis and prediction. 
+\item Aggregated data from twitter and online news sources involving Latin America, for use in analysis and prediction.
 \item Tested and experimented with a variety of NLP libraries  (Python, Data Mining, Natural language processing).
 \end{tightemize}
 
@@ -139,7 +139,7 @@ MYSQL, Visual Basic, MATLAB, \LaTeX\ , Assembly
 %     PAPERS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Papers} 
+\section{Papers}
 Holder E., Shah E., \custombold{Davoodi M.}, Tilevich E. Cloud Twin: Native Execution of Android Applications
 on the Windows Phone. Automated Software Engineering, New Ideas, November 11-15, 2013.
 
@@ -147,7 +147,7 @@ on the Windows Phone. Automated Software Engineering, New Ideas, November 11-15,
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
+\section{Awards}
 \begin{tabular}{l|l|l}
 2014	     & 1st Peoples Choice at CSRC Research Symposium & 3rd Faculty Choice at CSRC Research Symposium \\
 2013	     & 2nd Peoples Choice at CSRC Research Symposium & 2nd Faculty Choice at CSRC Research Symposium \\
