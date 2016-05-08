@@ -1,6 +1,6 @@
 dependencies:
  pre:
-  - sudo apt-get update; sudo apt-get install texlive-xetex
+  - sudo apt-get update; sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-latex-extra
 test:
  override:
   - make all
