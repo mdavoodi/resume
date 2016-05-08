@@ -6,5 +6,5 @@ test:
   - make all
  post:
   - mkdir -p $CIRCLE_ARTIFACTS/dist/
-  - find . -type f -regex "*.pdf" -exec cp {} $CIRCLE_ARTIFACTS/dist/ \;
-  - find . -type f -regex "*.log" -exec cp {} $CIRCLE_ARTIFACTS/dist/ \;
+  - find . -type f -regex ".*.pdf" -exec cp {} $CIRCLE_ARTIFACTS/dist/ \;
+  - find . -type f -regex ".*.log" -exec cp {} $CIRCLE_ARTIFACTS/dist/ \;
