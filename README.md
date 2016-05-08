@@ -13,3 +13,7 @@ sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-latex-extra
 ```
 make all
 ```
+
+##Credits
+
+Originally forked from https://github.com/deedy/Deedy-Resume/
