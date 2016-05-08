@@ -1,5 +1,5 @@
 % Intro Options
-\ProvidesClass{mdavoodi-resume}[2014/04/30 CV class]
+\ProvidesClass{mdavoodi_resume}[2014/04/30 CV class]
 \NeedsTeXFormat{LaTeX2e}
 \DeclareOption{print}{\def\@cv@print{}}
 \DeclareOption*{%
