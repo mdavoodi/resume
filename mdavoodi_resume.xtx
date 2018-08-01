@@ -81,9 +81,18 @@ MYSQL, Visual Basic, MATLAB, \LaTeX\ , Assembly
 
 \section{Experience}
 
+\runsubsection{Mohami.io}
+\descript{| Founder \& CEO }
+\location{February 2016 – Present (2 years, 7 months) | Los Angeles, CA}
+\begin{tightemize}
+\item 
+I founded and run Mohami.io, one of the leading add-on providers on the Atlassian Marketplace. \item We have 14 add-ons across Bitbucket, Confluence, and Jira on both cloud and server architecture powering over 10,000 companies in over 100+ countries. \item I lead the commercial, managerial and technical side of things, with some development when I get the chance.
+\end{tightemize}
+\sectionsep
+
 \runsubsection{SpaceX}
 \descript{| Software Engineer }
-\location{June 2014 – Present (1 year, 8 months) | Hawthorne, CA}
+\location{June 2014 – February 2016 (1 year, 10 months) | Hawthorne, CA}
 \begin{tightemize}
 \item Work as a Software Engineer in Flight Software on internal tools for build and release of vehicle software and configuration, automated data analysis (Python, Java, Javascript, AngularJS, Celery, Flask, Bamboo, JIRA, MATLAB) \item Work on embedded software and manage software release (C++, Linux) for Falcon 9 rockets.
 \end{tightemize}
@@ -134,24 +143,5 @@ MYSQL, Visual Basic, MATLAB, \LaTeX\ , Assembly
 \item Aggregated data from twitter and online news sources involving Latin America, for use in analysis and prediction.
 \item Tested and experimented with a variety of NLP libraries  (Python, Data Mining, Natural language processing).
 \end{tightemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PAPERS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Papers}
-Holder E., Shah E., \custombold{Davoodi M.}, Tilevich E. Cloud Twin: Native Execution of Android Applications
-on the Windows Phone. Automated Software Engineering, New Ideas, November 11-15, 2013.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Awards}
-\begin{tabular}{l|l|l}
-2014	     & 1st Peoples Choice at CSRC Research Symposium & 3rd Faculty Choice at CSRC Research Symposium \\
-2013	     & 2nd Peoples Choice at CSRC Research Symposium & 2nd Faculty Choice at CSRC Research Symposium \\
-2013	     & 3rd Faculty Choice at CSRC Capstone Symposium \\
-\end{tabular}
 
 \end{document}  \documentclass[]{article}
